@@ -1,0 +1,146 @@
+// $XKeyboardConfig$
+
+// This layout includes phonetic keyboard layouts for:
+//     - Gujarati 
+//     - Devanagari (Hindi)
+// Visit http://gujarati.anirdesh.com/type-gujarati-1.php for help with typing in both Gujarati and Hindi using these layouts.
+
+// Gujarati Phonetic Layout by Pritesh Patel
+// http://gujarati.anirdesh.com
+partial alphanumeric_keys 
+xkb_symbols "guj-ph" {
+      name[Group1]= "India - Gujarati Phonetic";
+      key.type="FOUR_LEVEL";
+
+//Numbers row
+      key <TLDE> { [      grave, asciitilde    ] }; //tilde
+      key <AE01> { [      U0AE7, exclam, 1     ] };
+      key <AE02> { [      U0AE8, at, 2 	       ] };
+      key <AE03> { [      U0AE9, U0AE9 , 3     ] };
+      key <AE04> { [      U0AEA, dollar, 4     ] };
+      key <AE05> { [      U0AEB, percent, 5    ] };
+      key <AE06> { [      U0AEC, U0A99, 6      ] }; //avagrah
+      key <AE07> { [      U0AED, U0A9E, 7      ] }; //nya
+      key <AE08> { [      U0AEE, U0ABF, 8      ] }; //vowel i
+      key <AE09> { [      U0AEF, parenleft, 9  ] };
+      key <AE10> { [      U0AE6, parenright, 0 ] };
+      key <AE11> { [      minus, U0A83, equal  ] }; //visarga
+      key <AE12> { [      U0AC9, U0A91, plus   ] }; //vowel sign candra O, candra O, plus
+
+//First row
+      key <AD01> { [      U0AA0, U0AA2  ]	}; // (Q) tha, dha
+      key <AD02> { [      U0A89, U0A8A  ]	}; // (W) u, oo
+      key <AD03> { [      U0A87, U0A88  ]	}; // (E) i, ee
+      key <AD04> { [      U0AB0, U0AF1  ]	}; // (R) r, rupee sign
+      key <AD05> { [      U0AA4, U0A9F  ]	}; // (T) t, t
+      key <AD06> { [      U0AAF, U0AA5 	]	}; // (Y) ya, tha
+      key <AD07> { [      U0AC1, U0AC2 	]	}; // (U) vowel sign u, vowel sign oo
+      key <AD08> { [      U0ABE, U0AC0 	]	}; // (I) vowel aa, vowel ee
+      key <AD09> { [      U0ACB, U0A93 	]	}; // (O) vowel o, o
+      key <AD10> { [      U0AAA, U0AB7 	]	}; // (P) pa, sha
+      key <AD11> { [      U0AC8, U0A90, U0964 	]	}; // ([) vowel sign ai, ai, single danda
+      key <AD12> { [      U0ACC, U0A94, U0965 	]	}; // (]) vowel sign au, au, double danda
+
+      key <BKSL> {	[ U0A81, U0A8B, U0AE0	]	}; // (\) candrabindu, vocalic r, vocalic rr
+
+//Second row
+      key <AC01> { [      U0A85, U0A86	]	}; // (A) a, aa
+      key <AC02> { [      U0AB8, U0AB6	]	}; // (S) sa, sha
+      key <AC03> { [      U0AA6, U0AA1  ]	}; // (D) da, da
+      key <AC04> { [      U0AAB, U0AA7  ]	}; // (F) fa, dha
+      key <AC05> { [      U0A97, U0A98  ]	}; // (G) ga, gha
+      key <AC06> { [      U0AB9 	]	}; // (H) ha
+      key <AC07> { [      U0A9C 	]	}; // (J) ja
+      key <AC08> { [      U0A95, U0A96 	]	}; // (K) ka, kha
+      key <AC09> { [      U0AB2, U0AB3, U0200D 	]	}; // (L) la, ala, zwj
+      key <AC10> { [      U0AC7, U0A8F, semicolon 	]	}; // (;) vowel sign e, e, semicolon
+      key <AC11> { [      U0ACD, quotedbl, apostrophe 	]	}; // (') viram, double quote, single quote (apostrophe)
+
+//Third row
+      key <AB01> { [      U0A9D, U0AC3, U0AC4		]       }; // (Z) za, vowel sign vocalic r, vowel sign vocalic rr
+      key <AB02> { [      U0ABD, U0ABC	]       }; // (X) avagraha, nukta
+      key <AB03> { [      U0A9A, U0A9B  ]       }; // (C) cha, chha
+      key <AB04> { [      U0AB5   ]       }; // (V) va
+      key <AB05> { [      U0AAC, U0AAD   ]       }; // (B) ba, bha
+      key <AB06> { [      U0AA8, U0AA3  ]       }; // (N) na, ana
+      key <AB07> { [      U0AAE  ]       }; // (M) ma
+      key <AB08> { [      comma, U0AC5, U0A8D  ]       }; // (<) comma, vowel sign candra e, candra e
+      key <AB09> { [      period, U0A82, U0200C  ]       }; // (>) period, anusvara, zwnj
+      key <AB10> { [      slash, question, colon   ]       }; // (?) slash, question, colon
+};
+
+//Name		:	Hindi Phonetic
+//Description	:	A phonetic keyboard layout for Devnagari (Hindi)
+//Site          : 	http://gujarati.anirdesh.com
+//Original Author :	Pritesh Patel
+
+partial alphanumeric_keys
+xkb_symbols "hin-ph" {
+     name[Group1] = "India - Hindi Phonetic";
+     key.type="FOUR_LEVEL";
+
+// Number rows
+	key <TLDE> { [ U094a, U0912,   grave, asciitilde  ] };
+	key <AE01> { [ U0967, exclam, 1 ] };
+	key <AE02> { [ U0968, at, 2 ] };
+	key <AE03> { [ U0969, U0950, 3 ] };
+	key <AE04> { [ U096a, dollar, 4 ] };
+	key <AE05> { [ U096b, percent, 5 ] };
+	key <AE06> { [ U096c, U093D, 6 ] };
+	key <AE07> { [ U096d, U091E, 7 ] };
+	key <AE08> { [ U096e, U093F, 8 ] };
+	key <AE09> { [ U096f, parenleft, 9 ] };
+	key <AE10> { [ U0966, parenright, 0 ] };
+	key <AE11> { [ minus, U0903, equal ] };
+	key <AE12> { [ U0949, U0911, plus ] }; //vowel sign candra O; candra O, plus
+
+// First row
+	key <AD01> { [ U0920, U0922 ] };
+	key <AD02> { [ U0909, U090A ] };
+	key <AD03> { [ U0907, U0908 ] };
+	key <AD04> { [ U0930 ] };
+	key <AD05> { [ U0924, U091F ] };
+	key <AD06> { [ U092F, U0925 ] };
+	key <AD07> { [ U0941, U0942 ] };
+	key <AD08> { [ U093E, U0940 ] };
+	key <AD09> { [ U094B, U0913, U0950 ] };
+	key <AD10> { [ U092A, U0937 ] };
+	key <AD11> { [ U0948, U0910, U0964 ] };
+	key <AD12> { [ U094C, U0914, U0965 ] };
+	key <BKSL> { [ U0901, U090B, U0960 ] }; //candrabindu, vocalic r, vocalic rr
+
+// Second row
+	key <AC01> { [ U0905, U0906 ] };
+	key <AC02> { [ U0938, U0936 ] };
+	key <AC03> { [ U0926, U0921, U0919 ] }; //nga
+	key <AC04> { [ U092B, U0927 ] };
+	key <AC05> { [ U0917, U0918 ] };
+	key <AC06> { [ U0939 ] };
+	key <AC07> { [ U091C ] };
+	key <AC08> { [ U0915, U0916 ] };
+	key <AC09> { [ U0932, U0933, U200D ] };
+	key <AC10> { [ U0947, U090F, semicolon ] };
+	key <AC11> { [ U094D, quotedbl, apostrophe ] };
+
+// Third row
+	key <AB01> { [ U091D, U0943, U0944 ] }; // z, vowel sign vocalic r, vowel sign vocalic rr
+	key <AB02> { [ U093D, U093C ] }; // (X) Avagraha, nukta
+	key <AB03> { [ U091A, U091B ] }; // (c) cha, chha
+	key <AB04> { [ U0935, U093D, U094A ] }; // (v) va, avagraha, vowel sign short O 
+	key <AB05> { [ U092C, U092D, U0912 ] }; // (b) ba, bha, vowel short O
+	key <AB06> { [ U0928, U0923, U0946 ] }; // (n) n, ana, vowel sign short e
+	key <AB07> { [ U092E, U0919, U090E ] }; // (m) m, nga, vowel short e
+	key <AB08> { [ comma, U0945, U090D ] }; // (<) comma, vowel sign candra e, vowel candra e
+	key <AB09> { [ period, U0902, U200D ] };
+	key <AB10> { [ slash, question, colon ] };
+
+// space, space, Zero-Width-Non-Joiner (ZWNJ), Zero-Width-Joiner (ZWJ):
+	include "nbsp(zwnj3zwj4)"
+
+// begin modifier mappings
+//    modifier_map Shift  { Shift_L };
+//    modifier_map Lock   { Caps_Lock };
+//    modifier_map Control{ Control_L };
+//    modifier_map Mod3   { Mode_switch };
+//    include "level3(ralt_switch)"
+};
