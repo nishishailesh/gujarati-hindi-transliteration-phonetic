@@ -5,12 +5,7 @@ This is a method to install phonetic keyboard in Linux (debian etc)\
 ``apt install ibus-m17n``\
 copy following files to the destination indicated\
  
-|File|Destination|
-|x|x|
+| File | Destination | Remark |
+| ---- | ----------- |--------|
+| in   | /usr/share/X11/xkb/symbols | if previous in exist, back it up before overrigting it |
 
-
-| Tables        | Are           | Cool  |
-| ------------- |:-------------:| -----:|
-| col 3 is      | right-aligned | $1600 |
-| col 2 is      | centered      |   $12 |
-| zebra stripes | are neat      |    $1 |
